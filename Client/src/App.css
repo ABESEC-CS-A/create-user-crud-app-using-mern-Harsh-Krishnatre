@@ -1,0 +1,116 @@
+.header{
+  width:100vw;
+  height:10vh;
+  background-color: #282c34;
+  color:gray;
+  text-align:center;
+}
+
+/*Content*/
+
+.content .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.content h1 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content thead {
+  background-color: #4a6fa5;
+  color: white;
+}
+
+.content th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.content tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.content tbody tr:hover {
+  background-color: #f1f7ff;
+  transition: background-color 0.2s ease;
+}
+
+.content button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+
+
+.content button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.content button:last-child:hover {
+  background-color: #d32f2f;
+}
+
+.content button:first-child, .content .add {
+  background-color: #4caf50;
+  color: white;
+}
+
+.content button:first-child:hover {
+  background-color: #45a049;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  th, td {
+    padding: 8px 10px;
+    min-width: 120px;
+  }
+  
+  button {
+    padding: 5px 8px;
+    font-size: 0.9rem;
+  }
+}
+
+.content .error-message {
+  color: #f44336;
+  padding: 15px;
+  text-align: center;
+}
+
+.content .empty-message {
+  color: #757575;
+  padding: 15px;
+  text-align: center;
+}
+.footer{
+  width:100vw;
+  height:10vh;
+  background-color: #282c34;
+  color:gray;
+  text-align:center;
+} 
